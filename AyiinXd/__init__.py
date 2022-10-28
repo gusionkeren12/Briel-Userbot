@@ -234,10 +234,10 @@ BOT_VER = os.environ.get("BOT_VER", "3.6.9")
 
 # Default .alive logo
 ALIVE_LOGO = (os.environ.get("ALIVE_LOGO")
-              or "https://telegra.ph/file/3770e59b11a06a85d37b7.jpg")
+              or "https://telegra.ph/file/2ad9031583e069c25a8a6.jpg")
 
 INLINE_PIC = (os.environ.get("INLINE_PIC")
-              or "https://telegra.ph/file/2bfaea7272cfde2bd7575.jpg")
+              or "https://telegra.ph/file/8df2b5b2ec9ac304eb172.jpg")
 
 # Picture For VCPLUGIN
 PLAY_PIC = (os.environ.get("PLAY_PIC")
@@ -348,7 +348,7 @@ else:
 
 async def update_restart_msg(chat_id, msg_id):
     message = (
-        f"**𝗡𝗮𝗻𝗱𝗲-𝘛𝘦𝘭𝘦𝘵𝘩𝘰𝘯 v`{BOT_VER}` is back up and running!**\n\n"
+        f"**𝘽𝙧𝙞𝙚𝙡-𝘜𝘴𝘦𝘳𝘣𝘰𝘵 v`{BOT_VER}` is back up and running!**\n\n"
         f"**Telethon:** `{vsc}`\n"
         f"**Python:** `{python_version()}`\n"
     )
@@ -446,10 +446,10 @@ with bot:
         logo = ALIVE_LOGO
         logoyins = random.choice(
                 [
-                    "https://telegra.ph/file/58e87a4527649af555a6a.jpg",
-                    "https://telegra.ph/file/e6c5ff0189cc4c7e0c913.jpg",
-                    "https://telegra.ph/file/9cefe256c1b71bb48cafd.jpg",
-                    "https://telegra.ph/file/9461d5c22112602ad5da1.jpg",
+                    "https://telegra.ph/file/8df2b5b2ec9ac304eb172.jpg",
+                    "https://telegra.ph/file/8df2b5b2ec9ac304eb172.jpg",
+                    "https://telegra.ph/file/2ad9031583e069c25a8a6.jpg",
+                    "https://telegra.ph/file/8df2b5b2ec9ac304eb172.jpg",
                 ]
         )
         cmd = CMD_HANDLER
@@ -552,7 +552,7 @@ with bot:
         async def on_plug_in_callback_query_handler(event):
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
                 buttons = paginate_help(0, dugmeler, "helpme")
-                text = f"**✨ 𝗡𝗮𝗻𝗱𝗲-𝘛𝘦𝘭𝘦𝘵𝘩𝘰𝘯 𝙸𝙽𝙻𝙸𝙽𝙴 𝙼𝙴𝙽𝚄 ✨**\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**"
+                text = f"**✨ 𝘽𝙧𝙞𝙚𝙡-𝘜𝘴𝘦𝘳𝘣𝘰𝘵 𝙸𝙽𝙻𝙸𝙽𝙴 𝙼𝙴𝙽𝚄 ✨**\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**"
                 await event.edit(
                     text,
                     file=logoyins,
@@ -574,28 +574,28 @@ with bot:
                 result = await event.builder.photo(
                     file=logoyins,
                     link_preview=False,
-                    text=f"**✨ 𝗡𝗮𝗻𝗱𝗲-𝘛𝘦𝘭𝘦𝘵𝘩𝘰𝘯 𝙸𝙽𝙻𝙸𝙽𝙴 𝙼𝙴𝙽𝚄 ✨**\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ :** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**",
+                    text=f"**✨ 𝘽𝙧𝙞𝙚𝙡-𝘜𝘴𝘦𝘳𝘣𝘰𝘵 𝙸𝙽𝙻𝙸𝙽𝙴 𝙼𝙴𝙽𝚄 ✨**\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ :** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**",
                     buttons=main_help_button,
                 )
             elif query.startswith("repo"):
                 result = builder.article(
                     title="Repository",
-                    description="Repository Nande - Telethon",
+                    description="Repository Briel-Userbot",
                     url="https://t.me/suportsipuserbot",
                     thumb=InputWebDocument(
                         INLINE_PIC,
                         0,
                         "image/jpeg",
                         []),
-                    text="**𝗡𝗮𝗻𝗱𝗲-𝘛𝘦𝘭𝘦𝘵𝘩𝘰𝘯**\n➖➖➖➖➖➖➖➖➖➖\n✧  **ʀᴇᴘᴏ :** [sip-Userbot](https://t.me/Klyuserbot)\n✧ **sᴜᴘᴘᴏʀᴛ :** @suportsipuserbot\n✧ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [𝗡𝗮𝗻𝗱𝗲-𝘛𝘦𝘭𝘦𝘵𝘩𝘰𝘯](https://github.com/sip-Userbot/Nande-Telethon)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**𝘽𝙧𝙞𝙚𝙡-𝘜𝘴𝘦𝘳𝘣𝘰𝘵**\n➖➖➖➖➖➖➖➖➖➖\n✧  **ʀᴇᴘᴏ :** [sip-Userbot](https://t.me/Brielhere)\n✧ **sᴜᴘᴘᴏʀᴛ :** @demetriosinhere\n✧ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [Briel-Userbot](https://github.com/gusionkeren12/Briel-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
                                 "ɢʀᴏᴜᴘ",
-                                "https://t.me/suportsipuserbot"),
+                                "https://t.me/demetriosinhere"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ",
-                                "https://github.com/sip-Userbot/Nande-Telethon"),
+                                "https://github.com/gusionkeren12/Briel-Userbot"),
                         ],
                     ],
                     link_preview=False,
@@ -604,7 +604,7 @@ with bot:
                 result = builder.article(
                     title="String",
                     description="String Nande - Telethon",
-                    url="https://t.me/suportsipuserbot",
+                    url="https://t.me/demetriosinhere",
                     thumb=InputWebDocument(
                         logoyins,
                         0,
@@ -642,7 +642,7 @@ with bot:
                 buttons.append([custom.Button.inline("ʙᴀᴄᴋ", data="yins_close")])
                 result = builder.article(
                     title="Lang",
-                    description="Lang Nande - Telethon",
+                    description="Lang Briel - Userbot",
                     url="https://t.me/suportsipuserbot",
                     thumb=InputWebDocument(
                         logoyins,
@@ -687,23 +687,23 @@ with bot:
                 )
             else:
                 result = builder.article(
-                    title="✨ 𝗡𝗮𝗻𝗱𝗲-𝘛𝘦𝘭𝘦𝘵𝘩𝘰𝘯 ✨",
-                    description="Nande - Telethon | Telethon",
-                    url="https://t.me/suportsipuserbot",
+                    title="✨ 𝘽𝙧𝙞𝙚𝙡-𝘜𝘴𝘦𝘳𝘣𝘰𝘵 ✨",
+                    description="𝘽𝙧𝙞𝙚𝙡 - 𝘜𝘴𝘦𝘳𝘣𝘰𝘵 | Telethon",
+                    url="https://t.me/dailybriel",
                     thumb=InputWebDocument(
                         INLINE_PIC,
                         0,
                         "image/jpeg",
                         []),
-                    text=f"**𝗡𝗮𝗻𝗱𝗲-𝘛𝘦𝘭𝘦𝘵𝘩𝘰𝘯**\n➖➖➖➖➖➖➖➖➖➖\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴀssɪsᴛᴀɴᴛ:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**ᴜᴘᴅᴀᴛᴇs :** @suportsipuserbot\n➖➖➖➖➖➖➖➖➖➖",
+                    text=f"**𝘽𝙧𝙞𝙚𝙡-𝘜𝘴𝘦𝘳𝘣𝘰𝘵**\n➖➖➖➖➖➖➖➖➖➖\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴀssɪsᴛᴀɴᴛ:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**ᴜᴘᴅᴀᴛᴇs :** @dailybriel\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
                                 "ɢʀᴏᴜᴘ",
-                                "https://t.me/suportsipuserbot"),
+                                "https://t.me/dailybriel"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ",
-                                "https://github.com/sip-Userbot/Nande-Telethon"),
+                                "https://github.com/gusionkeren12/Briel-Userbot"),
                         ],
                     ],
                     link_preview=False,
@@ -752,7 +752,7 @@ with bot:
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:  # @Ayiin-Userbot
                 # https://t.me/TelethonChat/115200
                 text = (
-                    f"**✨ 𝗡𝗮𝗻𝗱𝗲-𝘛𝘦𝘭𝘦𝘵𝘩𝘰𝘯 Inline Menu ✨**\n\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**")
+                    f"**✨ 𝘽𝙧𝙞𝙚𝙡-𝘜𝘴𝘦𝘳𝘣𝘰𝘵 Inline Menu ✨**\n\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**")
                 await event.edit(
                     text,
                     file=logoyins,
