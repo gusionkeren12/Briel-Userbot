@@ -18,9 +18,9 @@ from AyiinXd.ayiin import ayiin_version as py_ver
 from AyiinXd.ayiin import HOSTED_ON, checking
 
 MSG_ON = """
-❏ 𝙽𝚊𝚗𝚍𝚎 - 𝚄𝚜𝚎𝚛𝚋𝚘𝚝 ʙᴇʀʜᴀsɪʟ ᴅɪᴀᴋᴛɪғᴋᴀɴ
+❏ 𝐁𝐫𝐢𝐞𝐥 - 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ʙᴇʀʜᴀsɪʟ ᴅɪᴀᴋᴛɪғᴋᴀɴ
 ╭╼┅━━━━━╍━━━━━┅╾
-├▹ 𝗡𝗮𝗻𝗱𝗲 Vᴇʀsɪᴏɴ - {} •[{}]•
+├▹ 𝐁𝐫𝐢𝐞𝐥 Vᴇʀsɪᴏɴ - {} •[{}]•
 ├▹ Usᴇʀʙᴏᴛ Vᴇʀsɪᴏɴ - {}
 ├▹ @{}
 ├▹ Kᴇᴛɪᴋ {}alive Uɴᴛᴜᴋ Mᴇɴɢᴇᴄᴇᴋ Bᴏᴛ
