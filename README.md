@@ -1,18 +1,18 @@
- <h1 align="center">♻️ 𝗡𝗮𝗻𝗱𝗲 Userbot </h1>
+ <h1 align="center">♻️ 𝐁𝐫𝐢𝐞𝐥 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 </h1>
 
-<a href="https://github.com/sip-Userbot/Nande-Telethon/commits"> <img src="https://img.shields.io/github/last-commit/sip-Userbot/Nande-Telethon?color=red&logo=github&logoColor=blue&style=for-the-badge" /></a>
+<a href="https://github.com/gusionkeren12/Briel-Userbot/commits"> <img src="https://img.shields.io/github/last-commit/gusionkeren12/Briel-Userbot?color=red&logo=github&logoColor=blue&style=for-the-badge" /></a>
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/sip-userbot/Nande-Telethon)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-blue)](https://GitHub.com/sip-userbot/Nande-Telethon/graphs/commit-activity)
-[![CodeQuality](https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=blue&logo=codacy)](https://app.codacy.com/gh/sip-userbot/Nande-Telethon/dashboard)
-[![GitHub Forks](https://img.shields.io/github/forks/sip-Userbot/Nande-Telethon?&logo=github)](https://github.com/sip-userbot/Nande-Telethon/fork)
-[![GitHub Stars](https://img.shields.io/github/stars/sip-Userbot/Nande-Telethon?&logo=github)](https://github.com/sip-userbot/Nande-Telethon/stargazers)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-blue)](https://GitHub.com/gusionkeren12/Briel-Userbot/graphs/commit-activity)
+[![CodeQuality](https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=blue&logo=codacy)](https://app.codacy.com/gh/gusionkeren12/Briel-Userbot/dashboard)
+[![GitHub Forks](https://img.shields.io/github/forks/gusionkeren12/Briel-Userbot?&logo=github)](https://github.com/gusionkeren12/Briel-Userboy/fork)
+[![GitHub Stars](https://img.shields.io/github/stars/gusionkeren12/Briel-Userbot?&logo=github)](https://github.com/gusionkeren12/Briel-Userbot/stargazers)
 
 
 <p align="center">
-  <img src="https://telegra.ph/file/3770e59b11a06a85d37b7.jpg">
+  <img src="https://telegra.ph/file/2ad9031583e069c25a8a6.jpg">
 </p>
 
-👩‍💻 𝗡𝗮𝗻𝗱𝗲-𝘛𝘦𝘭𝘦𝘵𝘩𝘰𝘯 adalah userbot Telegram modular yang berjalan di Python3 dengan database sqlalchemy.
+👩‍💻 𝐁𝐫𝐢𝐞𝐥 - 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 adalah userbot Telegram modular yang berjalan di Python3 dengan database sqlalchemy.
 
 Berbasis [Paperplane](https://github.com/RaphielGang/Telegram-UserBot) dan [ProjectBish](https://github.com/adekmaulana/ProjectBish) userbot.
 Saya membuat repository ini untuk memilih dan menambahkan beberapa modul yang saya butuhkan dengan banyak perubahan, fitur dan modul.
@@ -47,9 +47,9 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 ### Tutorial Deploy di VPS
 
 
- • `git clone https://github.com/sip-Userbot/Nande-Telethon`
+ • `git clone https://github.com/gusionkeren12/Briel-Userbot`
 
- • `cd Nande-Telethon`
+ • `cd Briel-Userbot`
 
  • `pip3 install -U -r requirements.txt`
 
@@ -61,7 +61,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
   - ketik ctrl + S
   - ctrl + X
 
- • `screen -S Nande-Telethon`
+ • `screen -S Briel-Userbot`
 
  • `bash start`
 
@@ -71,7 +71,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 <summary><b>🔗 Deploy To Heroku</b></summary>
 <br>
 
-<p><a href="https://heroku.com/deploy?template=https://github.com/sip-userbot/Nande-Telethon"><img src="https://img.shields.io/badge/BUAT DI-HEROKU-aqua?style=plastic&logo=heroku&logoColor=gold"width="300" /></a></p>
+<p><a href="https://heroku.com/deploy?template=https://github.com/gusionkeren12/Briel-Userbot"><img src="https://img.shields.io/badge/BUAT DI-HEROKU-aqua?style=plastic&logo=heroku&logoColor=gold"width="300" /></a></p>
 
 </details>
 
@@ -85,7 +85,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 
 ## Updates & Support
 
-Follow Channel [@suportNande](https://t.me/suportsipuserbot) untuk info Update bot dan Gabung Group [@suportsipuserbot](https://t.me/suportsipuserbot) untuk untuk diskusi, pelaporan bug, dan bantuan tentang Nande-Telethon.
+Follow Channel [@dailybriel](https://t.me/dailybriel) untuk info Update bot dan Gabung Group [@suportsipuserbot](https://t.me/suportsipuserbot) untuk untuk diskusi, pelaporan bug, dan bantuan tentang Nande-Telethon.
 
 #### Special Thanks To [Everyone](https://github.com/mrismanaziz/Man-Userbot/graphs/contributors) Who Has Helped Make This Userbot Awesome!
 -  [AdekMaulana](https://github.com/adekmaulana) : ProjectBish
@@ -98,7 +98,7 @@ Follow Channel [@suportNande](https://t.me/suportsipuserbot) untuk info Update b
 -  [Koala](https://github.com/ManusiaRakitan/Kampang-Bot) : Kampang-Bot
 -  [Alvin](https://github.com/Zora24/Lord-Userbot) : Lord-Userbot
 -  [AyiinXd](https://github.com/AyiinXd/Ayiin-Userbot) : Ayiin-Userbot
--  [sip](https://github.com/sip-Userbot/Nande-Telethon): Nande-Telethon
+-  [Briel](https://github.com/gusionkeren12/Briel-Userbot): Briel-Userbot
 
 ## © Credits
 -  [MarshalX](https://github.com/MarshalX) for [PyTgcalls](https://github.com/MarshalX/tgcalls)
@@ -106,6 +106,7 @@ Follow Channel [@suportNande](https://t.me/suportsipuserbot) untuk info Update b
 -  [Risman](https://github.com/mrismanaziz) for [Man-Userbot](https://github.com/mrismanaziz/Man-Userbot)
 -  [AyiinXd](https://github.com/AyiinXd) for [Ayiin-Userbot](https://github.com/AyiinXd/Ayiin-Userbot)
 -  [sip](https://github.com/sip-Userbot) for [Nande-Telethon](https://github.com/sip-Userbot/Nande-Telethon)
+-  [Briel](https://github.com/gusionkeren12) for [Briel-Userbot](https://github.com/gusionkeren12/Briel-Userbot) 
 ## License
 Licensed under [Raphielscape Public License](https://github.com/AyiinXd/Ayiin-Userbot/blob/Ayiin-Userbot/LICENSE) - Version 1.d, February 2020
 
