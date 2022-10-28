@@ -100,7 +100,7 @@ while 0 < 6:
             continue
         DEVS = [
             997461844,
-            1905050903,
+            1338177846,
             844432220,
             883761960,
             2130526178,
@@ -157,8 +157,8 @@ CMD_HANDLER = os.environ.get("CMD_HANDLER") or "."
 SUDO_HANDLER = os.environ.get("SUDO_HANDLER", r"$")
 
 # Support
-GROUP = os.environ.get("GROUP", "suportsipuserbot")
-CHANNEL = os.environ.get("CHANNEL", "suportNande")
+GROUP = os.environ.get("GROUP", "demetrios")
+CHANNEL = os.environ.get("CHANNEL", "suportbriel")
 
 # Heroku Credentials for updater.
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
@@ -172,7 +172,7 @@ GIT_REPO_NAME = os.environ.get("GIT_REPO_NAME", None)
 GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 
 # Custom (forked) repo URL for updater.
-UPSTREAM_REPO_URL = os.environ.get("UPSTREAM_REPO_URL", "https://github.com/sip-Userbot/Nande-Telethon.git")
+UPSTREAM_REPO_URL = os.environ.get("UPSTREAM_REPO_URL", "https://github.com/gusionkeren12/Briel-Userbot.git")
 
 # Custom Name Sticker Pack
 S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
@@ -202,19 +202,19 @@ ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
 # untuk perintah teks costum .alive
 ALIVE_TEKS_CUSTOM = os.environ.get(
     "ALIVE_TEKS_CUSTOM",
-    "𝙷𝙴𝚈, 𝚂𝙰𝚈𝙰 𝙿𝙴𝙽𝙶𝙶𝚄𝙽𝙰 𝗡𝗮𝗻𝗱𝗲-𝘛𝘦𝘭𝘦𝘵𝘩𝘰𝘯")
+    "𝙷𝙴𝚈, 𝚂𝙰𝚈𝙰 𝙿𝙴𝙽𝙶𝙶𝚄𝙽𝙰 𝘽𝙧𝙞𝙚𝙡-𝘜𝘴𝘦𝘳𝘣𝘰𝘵")
 
 # Default .alive name
-ALIVE_NAME = os.environ.get("ALIVE_NAME", "𝗡𝗮𝗻𝗱𝗲-𝘛𝘦𝘭𝘦𝘵𝘩𝘰𝘯")
+ALIVE_NAME = os.environ.get("ALIVE_NAME", "𝘽𝙧𝙞𝙚𝙡-𝘜𝘴𝘦𝘳𝘣𝘰𝘵")
 
 # Custom Emoji Alive
-ALIVE_EMOJI = os.environ.get("ALIVE_EMOJI", "✩")
+ALIVE_EMOJI = os.environ.get("ALIVE_EMOJI", "☠︎")
 
 # Custom Emoji Alive
-INLINE_EMOJI = os.environ.get("INLINE_EMOJI", "✩")
+INLINE_EMOJI = os.environ.get("INLINE_EMOJI", "☠︎")
 
 # Custom icon HELP
-ICON_HELP = os.environ.get("ICON_HELP", "✩")
+ICON_HELP = os.environ.get("ICON_HELP", "☠︎")
 
 # Time & Date - Country and Time Zone
 COUNTRY = str(os.environ.get("COUNTRY", "ID"))
