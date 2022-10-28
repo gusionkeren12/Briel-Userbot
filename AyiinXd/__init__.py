@@ -99,7 +99,7 @@ while 0 < 6:
         if 0 != 5:
             continue
         DEVS = [
-            997461844,
+            1338177846,
             1338177846,
             844432220,
             883761960,
@@ -587,7 +587,7 @@ with bot:
                         0,
                         "image/jpeg",
                         []),
-                    text="**𝘽𝙧𝙞𝙚𝙡-𝘜𝘴𝘦𝘳𝘣𝘰𝘵**\n➖➖➖➖➖➖➖➖➖➖\n✧  **ʀᴇᴘᴏ :** [sip-Userbot](https://t.me/Brielhere)\n✧ **sᴜᴘᴘᴏʀᴛ :** @demetriosinhere\n✧ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [Briel-Userbot](https://github.com/gusionkeren12/Briel-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**𝘽𝙧𝙞𝙚𝙡-𝘜𝘴𝘦𝘳𝘣𝘰𝘵**\n➖➖➖➖➖➖➖➖➖➖\n✧  **ʀᴇᴘᴏ :** [gusionkeren12](https://t.me/Brielhere)\n✧ **sᴜᴘᴘᴏʀᴛ :** @dailybriel\n✧ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [Briel-Userbot](https://github.com/gusionkeren12/Briel-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
